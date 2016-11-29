@@ -8,6 +8,7 @@ Using this test mode has several limitations, including:
  * A fixed limit of only 30 packets sent to a remote AP for injection testing
  * A short timeout for sampling available nearby networks, resulting in only a small sample being tested
  * Inability to select a target BSSID for injection testing of a specific network
+ * No channel hopping capability
  
 By making the above options user-configurable, this project aims to provide a highly versatile packet injection test to provide real-time feedback without the requirement to authenticate with the remote device, enabling testing and adjustment of factors such as adaptor configuration and antenna positioning to achieve the most reliable two-way connection between a local client and remote AP.
 
