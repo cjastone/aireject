@@ -6,11 +6,11 @@ I created this project due to the limitations of the existing aireplay-ng packet
 Using this test mode has several limitations, including:
 
  * A fixed limit of only 30 packets sent to a remote AP for injection testing
- * A short timeout for sampling available nearby networks, resulting in only a small sample being tested (with a hard limit of 20 APs)
+ * A short timeout for sampling available nearby networks, resulting in only a small sample being tested
  * Inability to select a target BSSID for injection testing of a specific network
  
-By making the above options user-configurable, this project aims to provide a highly versatile packet injection test to provide real-time feedback, enabling testing and adjustment of factors such as adaptor configuration and antenna positioning to achieve the most reliable two-way connection between a local client and remote AP.
+By making the above options user-configurable, this project aims to provide a highly versatile packet injection test to provide real-time feedback without the requirement to authenticate with the remote device, enabling testing and adjustment of factors such as adaptor configuration and antenna positioning to achieve the most reliable two-way connection between a local client and remote AP.
 
 Ideal for use for provisioning and testing of equipment over long-distance links.
 
-Based on aircrack 1.2 rc-4.
+Based on aircrack 1.2 rc4.
