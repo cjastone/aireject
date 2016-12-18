@@ -33,7 +33,7 @@ chmod +x compile-pi
 ```
 
 ## Usage
-To list usage, type `./aireject --help`
+To display usage, type `./aireject --help`
 ```
   Aireplay-ng 1.2 rc4 - (C) 2006-2015 Thomas d'Otreppe
   http://www.aircrack-ng.org
@@ -61,17 +61,22 @@ To list usage, type `./aireject --help`
 ```
 sudo ./aireject wlan0
 ```
-Run on wlan0 with default options.  Will hop on all 2.4GHz channels for 20 seconds, then send 30 requests to each AP seen.
+Run on wlan0 with default options.  Will hop all 2.4GHz channels for 20 seconds, then send 30 requests to each AP found.
 
 ```
 sudo ./aireject wlan0 -c 6
 ```
 Run on wlan0 channel 6 with all other default options.
 
-````
-sudo ./aireject wlan0 -b a1:b2:c3:d4:e5:f6 -r 1000
 ```
-Hop on all channels until BSSID a1:b2:c3:d4:e5:f6 found, then send 1000 requests to it.
+sudo ./aireject wlan0 -c 12 -t 30
+```
+List all APs seen on channel 12 within 30 seconds with all other default options.
+
+````
+sudo ./aireject wlan0 -b a1:b2:c3:d4:e5:f6 -r 1000 -t 600
+```
+Hop channels for 600 seconds or until target BSSID a1:b2:c3:d4:e5:f6 found, then send 1000 requests to this target.
 
 ```
 sudo ./aireject wlan0 -b a1:b2:c3:d4:e5:f6 -B
