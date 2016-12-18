@@ -510,7 +510,7 @@ int do_attack_test()
 				chanindex+=1; 
 				chanindex = (chanindex < 1) ? UPPER_CHAN : (chanindex > UPPER_CHAN) ? 1 : chanindex;	// CS WRAP CHANINDEX TO MIN/MAX VALUES
 				
-				PCT; printf("Switching to channel:\t%d\n", chanindex);
+				//PCT; printf("Switching to channel:\t%d\n", chanindex);
 				wi_set_channel(_wi_out, chanindex);
 				gettimeofday( &tv4, NULL );	// CS RESET TIMER REFERENCE
 			}
