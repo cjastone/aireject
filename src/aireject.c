@@ -103,7 +103,7 @@ char usage[] =
 "  %s - (C) 2006-2015 Thomas d\'Otreppe\n"
 "  http://www.aircrack-ng.org\n"
 "\n"
-"  aireject 0.1 modifications November 2016 by Chris Stone\n"
+"  aireject 0.1 modifications December 2016 by Chris Stone\n"
 "  https://github.com/cjastone/aireject\n"
 "\n"
 "  usage: aireject <options> <wlan interface>\n"
@@ -118,7 +118,6 @@ char usage[] =
 "\n"
 "  Miscellaneous options:\n"
 "\n"
-"      --test              : tests injection and quality (-9)\n"
 "      --help              : Displays this usage screen\n"
 "\n";
 
