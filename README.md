@@ -73,7 +73,7 @@ sudo ./aireject wlan0 -c 12 -t 30
 ```
 List all APs seen on channel 12 within 30 seconds with all other default options.
 
-````
+```
 sudo ./aireject wlan0 -b a1:b2:c3:d4:e5:f6 -r 1000 -t 600
 ```
 Hop channels for 600 seconds or until target BSSID a1:b2:c3:d4:e5:f6 found, then send 1000 requests to this target.
